@@ -1,0 +1,352 @@
+.firstRowCards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  align-content: center;
+  
+}
+
+.item {
+  width: 185px;
+  margin-top: 35px;
+  background-color: rgb(29, 37, 109);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.itemWhite {
+  width: 185px;
+  margin-top: 35px;
+  background-color: rgb(190, 190, 190);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.item:hover {
+  background-color: rgba(29, 37, 109, 0.568);
+  cursor: pointer;
+}
+
+.itemWhite:hover {
+  background-color: rgb(230, 227, 227);
+  cursor: pointer;
+}
+
+.itemContentOne {
+  border-top: 3px solid rgb(30, 67, 189);
+}
+
+.itemContentTwo {
+  border-top: 3px solid rgb(30, 67, 189);
+}
+
+.instagramColor {
+  background-image: linear-gradient(to right, rgb(243, 109, 32) , rgb(197, 54, 149));
+  height: 3px;
+}
+
+.itemContentFour {
+  border-top: 3px solid rgb(172, 13, 26);
+}
+
+.firstRow {
+  margin-top: 15px;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.icon {
+  position: relative;
+  float: left;
+  margin-left: 25px;
+}
+
+.username {
+  color: rgb(99, 98, 98);
+}
+
+.followersNumber {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.followersNumberWhite {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.followersText {
+  color: rgb(99, 98, 98);
+}
+
+.dailyUpdate {
+  margin-bottom: 10px;
+}
+
+.updateArrow {
+  position: relative;
+  float: left;
+  margin-left: 40px;
+  margin-top: 13px;
+}
+
+.updateText {
+  color: rgb(39, 146, 36);
+}
+
+.updateTextFour {
+  color: rgba(214, 10, 10, 0.897);
+}
+
+#containerWhite {
+  background-color: rgb(7, 1, 53);
+}
+
+#dashboardCardWhite {
+  background-color: rgb(7, 1, 53);
+}
+
+#dashboardCardContent {
+    background-color: rgb(7, 1, 53);
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+
+#dashboardCardContentWhite {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+
+h1 {
+    color: white;
+    font-family:'Open-sans',Arial,sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+h2 {
+  color: white;
+  font-family:'Open-sans',Arial,sans-serif;
+  font-size: 14px;
+  padding-top: 30px;
+}
+
+.overviewItem {
+  width: 185px;
+  height: 100px;
+  margin-top: 35px;
+  background-color: rgb(29, 37, 109);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.overviewItemWhite {
+  width: 185px;
+  height: 100px;
+  margin-top: 35px;
+  background-color: rgb(190, 190, 190);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.overviewItem:hover {
+  background-color: rgba(29, 37, 109, 0.568);
+  cursor: pointer;
+}
+
+.text {
+  color: rgb(99, 98, 98);
+  position: relative;
+  float: left;
+  margin-left: 25px;
+}
+
+.number {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  float: left;
+  
+}
+
+.numberWhite {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  float: left;
+  
+}
+
+.dailyUpdateOverview {
+  display: grid;
+  grid-template-columns: auto auto  ;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.percentage {
+  color: rgb(39, 146, 36)
+}
+
+.percentageRed {
+  color: rgba(214, 10, 10, 0.897);
+}
+
+.updateArrowOverview{
+  position: relative;
+  float: left;
+  margin-top: 8px;
+}
+
+.firstRowOverview {
+  margin-top: 15px;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.secondRowOverview {
+  margin-top: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-content: center;
+  justify-content: space-evenly;
+  
+}
+
+.dashboardCardContentDown {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#title p {
+  color: rgb(99, 98, 98);
+  font-family:'Open-sans',Arial,sans-serif;
+  display: block;
+}
+
+.switch {
+    position: relative;
+    float: right;
+    width: 60px;
+    height: 34px;
+    margin-top: 20px;
+    
+    
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(29, 37, 109);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(29, 37, 109);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+  .firstRowCards {
+    display: block;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .itemWhite {
+    width: 100%;
+  }
+
+  .dashboardCardContentDown {
+    display: block;
+  }
+
+  .overviewItem {
+    width: 100%;
+  }
+
+  .overviewItemWhite {
+    width: 100%;
+  }
+
+  h1 {
+    display: block;
+  }
+
+  #title p {
+    color: rgb(99, 98, 98);
+    font-family:'Open-sans',Arial,sans-serif;
+    display: block;
+  }
+
+  .firstRow {
+    padding-left: 25%;
+  }
+
+  .dailyUpdate {
+    padding-left: 25%;
+  }
+
+  .firstRowOverview {
+    padding-left: 20%;
+  }
+
+  }

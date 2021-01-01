@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  
+</head>
+<body>
+  <div id="container">
+    <div id="dashboardCard">
+      <div id="dashboardCardContent">
+        
+        <div id="title">
+          <h1>Social Media Dashboard</h1>
+          <label class="switch">
+            <input type="checkbox" id="switcher" onclick="changePage()">
+            <span class="slider round"></span>
+          </label>
+          <p>Total Followers: 23,004</p>
+        </div>
+        <div class="firstRowCards">
+          <div class="item">
+            <div class="itemContentOne">
+              <div class="firstRow">
+                <img class="icon" src="images/icon-facebook.svg" alt="">
+                <p class="username">@nathanf</p>
+              </div>
+              <div class="followers">
+                <div class="followersNumber">1987</div>
+                <div class="followersText">Followers</div>
+              </div>
+              <div class="dailyUpdate">
+                <img src="images/icon-up.svg" alt="" class="updateArrow">
+                <div class="updateText">12 Today</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="itemContentTwo">
+              <div class="firstRow">
+                <img class="icon" src="images/icon-twitter.svg" alt="">
+                <p class="username">@nathanf</p>
+              </div>
+              <div class="followers">
+                <div class="followersNumber">1044</div>
+                <div class="followersText">Followers</div>
+              </div>
+              <div class="dailyUpdate">
+                <img src="images/icon-up.svg" alt="" class="updateArrow">
+                <div class="updateText">99 Today</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="itemContentThree">
+              <div class="instagramColor"></div>
+              <div class="firstRow">
+                <img class="icon" src="images/icon-instagram.svg" alt="">
+                <p class="username">@realnathanf</p>
+              </div>
+              <div class="followers">
+                <div class="followersNumber">11k</div>
+                <div class="followersText">Followers</div>
+              </div>
+              <div class="dailyUpdate">
+                <img src="images/icon-up.svg" alt="" class="updateArrow">
+                <div class="updateText">1099 Today</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="itemContentFour">
+              <div class="firstRow">
+                <img class="icon" src="images/icon-youtube.svg" alt="">
+                <p class="username">Nathan F.</p>
+              </div>
+              <div class="followers">
+                <div class="followersNumber">8239</div>
+                <div class="followersText">Subscribers</div>
+              </div>
+              <div class="dailyUpdate">
+                <img src="images/icon-down.svg" alt="" class="updateArrow">
+                <div class="updateTextFour">144 Today</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <h2>Overview - Today</h2>
+
+        <div class="dashboardCardContentDown">
+          <div class="overviewItem">
+            <div class="firstRowOverview">
+              <p class="text">Page Views</p>
+              <img src="images/icon-facebook.svg" alt="" class="iconOverview">
+            </div>
+            <div class="secondRowOverview">
+              <p class="number">87</p>
+              <div class="dailyUpdateOverview">
+                <img src="images/icon-up.svg" alt="" class="updateArrowOverview">
+                <p class="percentage">3%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="overviewItem">
+            <div class="firstRowOverview">
+              <p class="text">Likes</p>
+              <img src="images/icon-facebook.svg" alt="" class="iconOverview">
+            </div>
+            <div class="secondRowOverview">
+              <p class="number">52</p>
+              <div class="dailyUpdateOverview">
+                <img src="images/icon-down.svg" alt="" class="updateArrowOverview">
+                <p class="percentageRed">2%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="overviewItem">
+            <div class="firstRowOverview">
+              <p class="text">Likes</p>
+              <img src="images/icon-instagram.svg" alt="" class="iconOverview">
+            </div>
+            <div class="secondRowOverview">
+              <p class="number">5462</p>
+              <div class="dailyUpdateOverview">
+                <img src="images/icon-up.svg" alt="" class="updateArrowOverview">
+                <p class="percentage">2257%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="overviewItem">
+            <div class="firstRowOverview">
+              <p class="text">Profile Views</p>
+              <img src="images/icon-instagram.svg" alt="" class="iconOverview">
+            </div>
+            <div class="secondRowOverview">
+              <p class="number">52k</p>
+              <div class="dailyUpdateOverview">
+                <img src="images/icon-up.svg" alt="" class="updateArrowOverview">
+                <p class="percentage">1375%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="overviewItem">
+            <div class="firstRowOverview">
+              <p class="text">Retweets</p>
+              <img src="images/icon-twitter.svg" alt="" class="iconOverview">
+            </div>
+            <div class="secondRowOverview">
+              <p class="number">117</p>
+              <div class="dailyUpdateOverview">
+                <img src="images/icon-up.svg" alt="" class="updateArrowOverview">
+                <p class="percentage">303%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="overviewItem">
+            <div class="firstRowOverview">
+              <p class="text">Likes</p>
+              <img src="images/icon-twitter.svg" alt="" class="iconOverview">
+            </div>
+            <div class="secondRowOverview">
+              <p class="number">507</p>
+              <div class="dailyUpdateOverview">
+                <img src="images/icon-up.svg" alt="" class="updateArrowOverview">
+                <p class="percentage">553%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="overviewItem">
+            <div class="firstRowOverview">
+              <p class="text">Likes</p>
+              <img src="images/icon-youtube.svg" alt="" class="iconOverview">
+            </div>
+            <div class="secondRowOverview">
+              <p class="number">107</p>
+              <div class="dailyUpdateOverview">
+                <img src="images/icon-down.svg" alt="" class="updateArrowOverview">
+                <p class="percentageRed">19%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="overviewItem">
+            <div class="firstRowOverview">
+              <p class="text">Total Views</p>
+              <img src="images/icon-youtube.svg" alt="" class="iconOverview">
+            </div>
+            <div class="secondRowOverview">
+              <p class="number">1407</p>
+              <div class="dailyUpdateOverview">
+                <img src="images/icon-down.svg" alt="" class="updateArrowOverview">
+                <p class="percentageRed">12%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
